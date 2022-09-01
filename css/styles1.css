@@ -25,14 +25,14 @@ font-style: normal;
 font-weight: 700;
 font-size: 26px;
 line-height: 1.2;
-}
+} /* Logo formating */
 .logo-black{
 color:var(--main-color);
 }
 .title-white,.link-white,.logo-white,.button-color, .btn-portfolio:hover,
 .btn-portfolio:focus{
 color:#fff;
-}/* Logo formating */
+}
 .link-black{
 color:var(--main-color);
 }
@@ -104,7 +104,7 @@ line-height: 1.18;
 .portfolio-h{
 font-weight: 700;
 font-size:18;
-line-height:2 ;
+line-height:2 ; /*font in portfolio  */
 }
 .portfolio-p{
 font-size:16px;
