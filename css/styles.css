@@ -10,15 +10,17 @@ color:var(--main-color);
 button{
     cursor: pointer;
 }
-/* formating header */
-.pagination a{
+.pagination a, .logo:visited{
 color:var(--main-color);
 }
-.contact-header a{
+.contact-header a, .adress a,.portfolio-pcolor{ /* set color for elements with gray font */
 color:var(--second-color);
 }
-.header-link:hover, .header-link a:focus {
+.header-link:hover, .header-link:focus, .adress a:hover, .adress a:focus{ /*  color for a in header, footer and for part of logo  */
 color:var(--hover-color);
+}
+.logo-white{
+color:#fff;
 }
 .header-link{
 font-weight: 500;
@@ -26,8 +28,8 @@ font-size:14px;
 line-height:1.14; ;
 text-decoration:none;
 }
-/* formating logo */
-.logo{  
+.logo{
+color:var(--main-color);
 font-family: Raleway;
 font-style: normal;
 font-weight:700;
@@ -35,15 +37,11 @@ font-size:26px;
 line-height: 1.2;
 text-decoration: none;
 }
-.logo:visited{
-color:var(--main-color);
-}
-/* formating footer */
+
 .footer {
     background-color: #2F303A;
 }
 .adress a{
-color:var(--second-color);
 font-size: 14px;
 line-height:1.7; 
 text-decoration: none;   
@@ -51,10 +49,6 @@ text-decoration: none;
 .adress>.first-adress{
  color:#fff;   
 }
-.adress a:hover{
-color: var(--hover-color);
-}
-/* formating index.html */
 .hero-title{
 color:#FFFFFF;
 font-weight:900;
