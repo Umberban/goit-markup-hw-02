@@ -110,6 +110,9 @@ line-height:2 ; /*font in portfolio  */
 font-size:16px;
 line-height:1.87 ;
 }
-.btn-portfolio{ /* just for prettier look  */
+.btn-portfolio{ /*   */
 border: 0;
+font-weight:500 ;
+font-size:16;
+line-height:1.6 ;
 }
