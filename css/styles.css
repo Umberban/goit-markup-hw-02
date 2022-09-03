@@ -50,10 +50,14 @@ font-weight: 500;
 .link-hover:hover, .link-hover:focus{
 color:var(--brand-color);
 }
+[aria-current]{
+color:var(--brand-color);
+}
 .adress a{
 font-size: 14px;
 line-height: 1.7;
 text-decoration: none;
+font-style: normal;
 }/* formating footer  */
 .title-upper{
 text-transform: uppercase;
@@ -64,6 +68,12 @@ background-color:var(--brand-color) ; /* set background "brand" color for elemen
 }
 .hero-button:hover {
 background-color: #188CE8;
+}
+.hero-button{
+font-weight: 700;
+font-size: 16px;
+line-height:1.8;
+text-align:center;
 }
 .hero-title{
 font-weight: 900;
