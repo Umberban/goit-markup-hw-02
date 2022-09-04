@@ -13,7 +13,7 @@ list-style:none ;
 }
 button {
     cursor: pointer;
-    font-family:Roboto ;
+    font-family:inherit ;
 }
 a{
     text-decoration: none;
